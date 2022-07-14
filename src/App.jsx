@@ -81,7 +81,7 @@ function App() {
             className='siguiente'
             onClick={() => {
               if (preguntaActual === preguntas.length - 1) {
-                window.location.href = '/';
+                window.location.href = '/preguntados-IELF';
               } else {
                 setPreguntaActual(preguntaActual + 1);
               }
