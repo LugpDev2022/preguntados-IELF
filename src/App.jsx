@@ -43,7 +43,7 @@ function App() {
             {' '}
             Obtuviste {puntuación} de {preguntas.length}{' '}
           </span>
-          <button onClick={() => (window.location.href = '/')}>
+          <button onClick={() => (window.location.href = '/preguntados-IELF')}>
             {' '}
             Volver a jugar
           </button>
